@@ -22,9 +22,28 @@ html,body{
     background:#fff;
     line-height:50px;
     display:flex;
+    padding:0 10px;
+    box-sizing:border-box;
 }
 .headerTop li{
     flex:1;
     text-align:center;
     color:grey;
+}
+.container{
+    flex:1;
+    background:#fff;
+    margin-top:13px;
+    padding:10px 15px;
+    box-sizing:border-box;
+}
+.container img{
+    width:100%;
+    margin:10px 0;
+    padding:0 10px;
+    box-sizing:border-box;
+}
+.headerTop .active{
+    color:blue;
+    border-bottom:1px solid blue;
 }
